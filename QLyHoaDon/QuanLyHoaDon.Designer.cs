@@ -264,7 +264,7 @@
             // 
             this.txtGhiChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu.Location = new System.Drawing.Point(6, 62);
-            this.txtGhiChu.MaxLength = 100;
+            this.txtGhiChu.MaxLength = 50;
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.Size = new System.Drawing.Size(314, 26);
             this.txtGhiChu.TabIndex = 11;
@@ -323,7 +323,7 @@
             this.grbThongKe.Controls.Add(this.label8);
             this.grbThongKe.Controls.Add(this.dtpTu);
             this.grbThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbThongKe.Location = new System.Drawing.Point(3, 3);
+            this.grbThongKe.Location = new System.Drawing.Point(5, 3);
             this.grbThongKe.Name = "grbThongKe";
             this.grbThongKe.Size = new System.Drawing.Size(655, 98);
             this.grbThongKe.TabIndex = 17;

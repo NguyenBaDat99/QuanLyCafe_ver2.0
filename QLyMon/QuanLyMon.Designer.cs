@@ -229,7 +229,7 @@
             // 
             this.txtGhiChuCS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChuCS.Location = new System.Drawing.Point(108, 92);
-            this.txtGhiChuCS.MaxLength = 100;
+            this.txtGhiChuCS.MaxLength = 30;
             this.txtGhiChuCS.Name = "txtGhiChuCS";
             this.txtGhiChuCS.Size = new System.Drawing.Size(158, 26);
             this.txtGhiChuCS.TabIndex = 2;
@@ -276,7 +276,7 @@
             // 
             this.txtGhiChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu.Location = new System.Drawing.Point(104, 92);
-            this.txtGhiChu.MaxLength = 100;
+            this.txtGhiChu.MaxLength = 30;
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.Size = new System.Drawing.Size(162, 26);
             this.txtGhiChu.TabIndex = 2;

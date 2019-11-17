@@ -40,7 +40,9 @@
             this.SucChua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TinhTrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnXoaBan = new System.Windows.Forms.Button();
+            this.txtTimBan = new System.Windows.Forms.TextBox();
             this.btnQuayLai = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -50,8 +52,6 @@
             this.btnCapNhat = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtTimBan = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dagvBan)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -174,6 +174,17 @@
             this.panel1.Size = new System.Drawing.Size(804, 41);
             this.panel1.TabIndex = 4;
             // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(219, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 23);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Tìm bàn:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // btnXoaBan
             // 
             this.btnXoaBan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -187,6 +198,17 @@
             this.btnXoaBan.Text = "Xóa bàn";
             this.btnXoaBan.UseVisualStyleBackColor = true;
             this.btnXoaBan.Click += new System.EventHandler(this.btnXoaBan_Click);
+            // 
+            // txtTimBan
+            // 
+            this.txtTimBan.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.txtTimBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimBan.Location = new System.Drawing.Point(310, 8);
+            this.txtTimBan.MaxLength = 20;
+            this.txtTimBan.Name = "txtTimBan";
+            this.txtTimBan.Size = new System.Drawing.Size(273, 26);
+            this.txtTimBan.TabIndex = 7;
+            this.txtTimBan.TextChanged += new System.EventHandler(this.txtTimBan_TextChanged);
             // 
             // btnQuayLai
             // 
@@ -302,28 +324,6 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm bàn:";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(219, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 23);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Tìm bàn:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // txtTimBan
-            // 
-            this.txtTimBan.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.txtTimBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimBan.Location = new System.Drawing.Point(310, 8);
-            this.txtTimBan.MaxLength = 30;
-            this.txtTimBan.Name = "txtTimBan";
-            this.txtTimBan.Size = new System.Drawing.Size(273, 26);
-            this.txtTimBan.TabIndex = 7;
-            this.txtTimBan.TextChanged += new System.EventHandler(this.txtTimBan_TextChanged);
             // 
             // QuanLyBan
             // 
