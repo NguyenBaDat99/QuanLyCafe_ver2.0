@@ -218,7 +218,7 @@
             // 
             this.txtGiaBanCS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaBanCS.Location = new System.Drawing.Point(108, 63);
-            this.txtGiaBanCS.MaxLength = 10;
+            this.txtGiaBanCS.MaxLength = 5;
             this.txtGiaBanCS.Name = "txtGiaBanCS";
             this.txtGiaBanCS.Size = new System.Drawing.Size(269, 26);
             this.txtGiaBanCS.TabIndex = 1;
@@ -295,7 +295,7 @@
             // 
             this.txtGiaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaBan.Location = new System.Drawing.Point(104, 61);
-            this.txtGiaBan.MaxLength = 10;
+            this.txtGiaBan.MaxLength = 5;
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.Size = new System.Drawing.Size(273, 26);
             this.txtGiaBan.TabIndex = 1;
