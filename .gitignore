@@ -1,0 +1,5 @@
+bin
+obj
+*.suo
+[KTPM]QuanLyCafe.suo
+Program.cs

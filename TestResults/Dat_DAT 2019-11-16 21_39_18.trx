@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="212a4349-2e08-4702-a8b0-406c4e7f9d5f" name="Dat@DAT 2019-11-16 21:39:18" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-16 21_39_18">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-16T21:39:18.6596312+07:00" queuing="2019-11-16T21:39:18.6885130+07:00" start="2019-11-16T21:39:18.6980644+07:00" finish="2019-11-16T21:39:18.9991962+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_TaoMoiValuuBan2" storage="c:\users\dat\desktop\testpm\bin\debug\testpm.dll" id="1384aeb7-4c4f-9df7-2c94-77ff50f623cb">
+      <Execution id="ee6d4c11-6d4b-428b-8b79-aede49bb07cd" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/TestPM/bin/Debug/TestPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test_QuanLyCafe.Test_QuanLyBan, TestPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_TaoMoiValuuBan2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1384aeb7-4c4f-9df7-2c94-77ff50f623cb" executionId="ee6d4c11-6d4b-428b-8b79-aede49bb07cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ee6d4c11-6d4b-428b-8b79-aede49bb07cd" testId="1384aeb7-4c4f-9df7-2c94-77ff50f623cb" testName="Test_TaoMoiValuuBan2" computerName="DAT" duration="00:00:00.0793711" startTime="2019-11-16T21:39:18.7050391+07:00" endTime="2019-11-16T21:39:18.9802479+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee6d4c11-6d4b-428b-8b79-aede49bb07cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at Test_QuanLyCafe.Test_QuanLyBan.Test_TaoMoiValuuBan2() in C:\Users\Dat\Desktop\TestPM\Test_QuanLyBan.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7055152c-7b71-43f6-809b-ea11f7b8fdf7" name="Dat@DAT 2019-11-17 15:59:21" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 15_59_21">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T15:59:21.8022562+07:00" queuing="2019-11-17T15:59:21.8581785+07:00" start="2019-11-17T15:59:21.8631654+07:00" finish="2019-11-17T15:59:22.1565158+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_TimBan_KhongThay" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="3393e269-f099-7851-92da-ffa6475b1c98">
+      <Execution id="79976e61-e747-494e-ae0f-bce71d116348" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSBan, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_TimBan_KhongThay" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3393e269-f099-7851-92da-ffa6475b1c98" executionId="79976e61-e747-494e-ae0f-bce71d116348" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="79976e61-e747-494e-ae0f-bce71d116348" testId="3393e269-f099-7851-92da-ffa6475b1c98" testName="Test_TimBan_KhongThay" computerName="DAT" duration="00:00:00.0426961" startTime="2019-11-17T15:59:21.8761313+07:00" endTime="2019-11-17T15:59:22.1295884+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79976e61-e747-494e-ae0f-bce71d116348">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;_KTPM_QuanLyCafe.Ban.Ban&gt;. </Message>
+          <StackTrace>   at UnitTest.Test_DSBan.Test_TimBan_KhongThay() in C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\UnitTest\Test_DSBan.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

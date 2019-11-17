@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b43bda5e-0f30-4df3-ae41-baa0367c35ec" name="Dat@DAT 2019-11-17 22:10:06" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 22_10_06">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T22:10:06.9813770+07:00" queuing="2019-11-17T22:10:07.0831054+07:00" start="2019-11-17T22:10:07.0880944+07:00" finish="2019-11-17T22:10:07.3892054+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TimMon_NhapMaMonDuongKhongTonTai" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="99efb3d3-663f-929d-6532-615f7f0d2cb2">
+      <Execution id="6a9fec56-ae51-48cd-b708-91450f183e58" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSMon, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimMon_NhapMaMonDuongKhongTonTai" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="99efb3d3-663f-929d-6532-615f7f0d2cb2" executionId="6a9fec56-ae51-48cd-b708-91450f183e58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6a9fec56-ae51-48cd-b708-91450f183e58" testId="99efb3d3-663f-929d-6532-615f7f0d2cb2" testName="TimMon_NhapMaMonDuongKhongTonTai" computerName="DAT" duration="00:00:00.0375484" startTime="2019-11-17T22:10:07.0990635+07:00" endTime="2019-11-17T22:10:07.3712530+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a9fec56-ae51-48cd-b708-91450f183e58">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTest.Test_DSMon.TimMon_NhapMaMonDuongKhongTonTai threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at UnitTest.Test_DSMon.TimMon_NhapMaMonDuongKhongTonTai() in C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\UnitTest\Test_DSMon.cs:line 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

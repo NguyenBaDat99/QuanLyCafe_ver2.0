@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a4efaf5a-b208-4f08-bb65-b1916a426173" name="Dat@DAT 2019-11-17 16:02:00" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 16_02_00">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T16:02:00.2962814+07:00" queuing="2019-11-17T16:02:00.3560838+07:00" start="2019-11-17T16:02:00.3620710+07:00" finish="2019-11-17T16:02:00.6193804+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_TimBan_Thay" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="1b43186f-cea4-7f6d-1ee2-8ab2997a0005">
+      <Execution id="304eab3b-df30-475e-bea4-1706960bca94" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSBan, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_TimBan_Thay" />
+    </UnitTest>
+    <UnitTest name="Test_TimBan_KhongThay" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="3393e269-f099-7851-92da-ffa6475b1c98">
+      <Execution id="b253e9d9-46e2-42e4-bb88-3b50d78c08bf" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSBan, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_TimBan_KhongThay" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b43186f-cea4-7f6d-1ee2-8ab2997a0005" executionId="304eab3b-df30-475e-bea4-1706960bca94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3393e269-f099-7851-92da-ffa6475b1c98" executionId="b253e9d9-46e2-42e4-bb88-3b50d78c08bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="304eab3b-df30-475e-bea4-1706960bca94" testId="1b43186f-cea4-7f6d-1ee2-8ab2997a0005" testName="Test_TimBan_Thay" computerName="DAT" duration="00:00:00.0148689" startTime="2019-11-17T16:02:00.3720420+07:00" endTime="2019-11-17T16:02:00.5894604+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="304eab3b-df30-475e-bea4-1706960bca94">
+    </UnitTestResult>
+    <UnitTestResult executionId="b253e9d9-46e2-42e4-bb88-3b50d78c08bf" testId="3393e269-f099-7851-92da-ffa6475b1c98" testName="Test_TimBan_KhongThay" computerName="DAT" duration="00:00:00.0001668" startTime="2019-11-17T16:02:00.5994344+07:00" endTime="2019-11-17T16:02:00.6014281+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b253e9d9-46e2-42e4-bb88-3b50d78c08bf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

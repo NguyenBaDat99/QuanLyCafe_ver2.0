@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0614d8cd-428a-4dbf-9882-5ee83987b00d" name="Dat@DAT 2019-11-17 16:12:17" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 16_12_17">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T16:12:17.4825395+07:00" queuing="2019-11-17T16:12:17.5234306+07:00" start="2019-11-17T16:12:17.5274201+07:00" finish="2019-11-17T16:12:17.7538131+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ThemBan_ThemDuoc" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="a434d100-f0ac-a281-47ec-574c081d9cbd">
+      <Execution id="5c23ba57-660e-428f-9f0e-31e37c14f4f5" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSBan, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ThemBan_ThemDuoc" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a434d100-f0ac-a281-47ec-574c081d9cbd" executionId="5c23ba57-660e-428f-9f0e-31e37c14f4f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5c23ba57-660e-428f-9f0e-31e37c14f4f5" testId="a434d100-f0ac-a281-47ec-574c081d9cbd" testName="Test_ThemBan_ThemDuoc" computerName="DAT" duration="00:00:00.0144691" startTime="2019-11-17T16:12:17.5373920+07:00" endTime="2019-11-17T16:12:17.7308738+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c23ba57-660e-428f-9f0e-31e37c14f4f5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6715b1a4-de8e-49ba-84c5-a38a63c34645" name="Dat@DAT 2019-11-17 22:11:26" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 22_11_26">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T22:11:26.4245750+07:00" queuing="2019-11-17T22:11:26.6000519+07:00" start="2019-11-17T22:11:26.6040415+07:00" finish="2019-11-17T22:11:26.8793054+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TimMon_NhapMaMonDuongKhongTonTai" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="99efb3d3-663f-929d-6532-615f7f0d2cb2">
+      <Execution id="88acbd97-3361-4e71-89d9-1358cd2f69c5" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSMon, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimMon_NhapMaMonDuongKhongTonTai" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="99efb3d3-663f-929d-6532-615f7f0d2cb2" executionId="88acbd97-3361-4e71-89d9-1358cd2f69c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="88acbd97-3361-4e71-89d9-1358cd2f69c5" testId="99efb3d3-663f-929d-6532-615f7f0d2cb2" testName="TimMon_NhapMaMonDuongKhongTonTai" computerName="DAT" duration="00:00:00.0134935" startTime="2019-11-17T22:11:26.6170068+07:00" endTime="2019-11-17T22:11:26.8493870+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88acbd97-3361-4e71-89d9-1358cd2f69c5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

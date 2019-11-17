@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b6df8729-6ec8-4124-9a7f-a3c1f723b4c3" name="Dat@DAT 2019-11-17 16:28:19" runUser="DAT\Dat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ac1e801b-a157-4743-b81a-14bced406d4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dat_DAT 2019-11-17 16_28_19">
+      <DeploymentItem filename="C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\bin\Debug\[KTPM]QuanLyCafe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-17T16:28:19.4892485+07:00" queuing="2019-11-17T16:28:19.5570683+07:00" start="2019-11-17T16:28:19.5620566+07:00" finish="2019-11-17T16:28:19.8522789+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ThemBan_ThemDungSucChuaMaBanTangTheoThuTu" storage="c:\users\dat\desktop\quanlycafe_ver2.0\unittest\bin\debug\unittest.dll" id="f1e59a57-ed47-db14-6f73-cbb01d1f194b">
+      <Execution id="a61d3dbb-8b2b-4cfe-9a61-61701ae5912f" />
+      <TestMethod codeBase="C:/Users/Dat/Desktop/QuanLyCafe_ver2.0/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.Test_DSBan, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ThemBan_ThemDungSucChuaMaBanTangTheoThuTu" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f1e59a57-ed47-db14-6f73-cbb01d1f194b" executionId="a61d3dbb-8b2b-4cfe-9a61-61701ae5912f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a61d3dbb-8b2b-4cfe-9a61-61701ae5912f" testId="f1e59a57-ed47-db14-6f73-cbb01d1f194b" testName="Test_ThemBan_ThemDungSucChuaMaBanTangTheoThuTu" computerName="DAT" duration="00:00:00.0386123" startTime="2019-11-17T16:28:19.5720279+07:00" endTime="2019-11-17T16:28:19.8333290+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a61d3dbb-8b2b-4cfe-9a61-61701ae5912f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;113&gt;. Actual:&lt;114&gt;. </Message>
+          <StackTrace>   at UnitTest.Test_DSBan.Test_ThemBan_ThemDungSucChuaMaBanTangTheoThuTu() in C:\Users\Dat\Desktop\QuanLyCafe_ver2.0\UnitTest\Test_DSBan.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
